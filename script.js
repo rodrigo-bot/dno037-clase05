@@ -45,7 +45,7 @@ Papa.parse("https://raw.githubusercontent.com/rodrigo-bot/dno037-clase05/main/in
                         datasets: [
                             {
                                 data: indice,
-                                backgroundColor: "rgba(0, 0, 0, .1)",
+                                backgroundColor: "rgba(255, 120, 40, .5)",
                                 borderColor: "rgba(0, 0, 0, .5)",
                                 pointRadius: 2,
                                 borderWidth: 1,
@@ -66,7 +66,7 @@ Papa.parse("https://raw.githubusercontent.com/rodrigo-bot/dno037-clase05/main/in
                                 {
                                     ticks: {
                                         beginAtZero: true,
-                                        fontColor: "rgba(0, 0, 0, 0.75)",
+                                        fontColor: "rgba(0, 0, 0, 0.85)",
                                         fontFamily: "monospace",
                                         fontSize: 11,
                                     },
@@ -75,7 +75,7 @@ Papa.parse("https://raw.githubusercontent.com/rodrigo-bot/dno037-clase05/main/in
                             xAxes: [
                                 {
                                     ticks: {
-                                        fontColor: "rgba(0, 0, 0, 0.75)",
+                                        fontColor: "rgba(0, 0, 0, 0.85)",
                                         fontFamily: "monospace",
                                         fontSize: 11,
                                     },
