@@ -3,31 +3,34 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>DNO037vR2 &#127758;</title>
         <meta name="description" content="Diseño y nuevos medios, segunda versión remota">
+        <title>DNO037vR2 &#9935;</title>      
         <link href="style.css" rel="stylesheet" />
-        <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css"
-            integrity="sha512-1xoFisiGdy9nvho8EgXuXvnpR5GAMSjFwp40gSRE3NwdUdIMIKuPa7bqoUhLD0O/5tPNhteAsE5XyyMi5reQVA=="
-            crossorigin="anonymous"
-        />
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.js" integrity="sha512-SeiQaaDh73yrb56sTW/RgVdi/mMqNeM2oBwubFHagc5BkixSpP1fvqF47mKzPGWYSSy4RwbBunrJBQ4Co8fRWA==" crossorigin="anonymous"></script>
     </head>
+    <body>
     <body>
         <div class="container">
             <header>
-                <h1>USGS Earthquakes</h1>
-                <h2><a href="index.html">All</a></h2>
+                <div>
+                    <h1>Índice de uso del cobre</h1>
+                    <h2><a href="index.html">Países</a>: </h2>
+                </div>
+                <div>
+                    <h3>Índice de intesidad de uso del cobre por países miembros de la OCDE y potencias no miembros*. Índices disponibles en <a href="https://datos.gob.cl/dataset/indice-de-intesidad-de-uso-del-cobre-por-pais/resource/6b2ce9f5-f23a-41ef-961a-1e9939e00c10" target="_blank" rel="noopener nofollow">Datos.gob</a>, el repositorio de datos abiertos centralizado del Estado de Chile.</h3>
+                </div>
             </header>
             <main>
-                <div id="mapa"></div>
+                <canvas id="grafico" height="30" width="100"></canvas>
             </main>
             <footer>
-                <p><a href="https://github.com/rodrigo-bot">Rodrigo Guzmán</a> <a href="https://github.com/profesorfaco/dno037-2021/tree/main/clase-06">DNO037</a></p>            
+                <p><a href="#">Nombre Apellido</a> <a href="#">DNO037</a></p>
             </footer>
         </div>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+        <!--biblioteca Papa Parse-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js" integrity="sha512-rKFvwjvE4liWPlFnvH4ZhRDfNZ9FOpdkD/BU5gAIA3VS3vOQrQ5BjKgbO3kxebKhHdHcNUHLqxQYSoxee9UwgA==" crossorigin="anonymous"></script>
+        <!--biblioteca Chart.js-->
+        <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js" integrity="sha256-t9UJPrESBeG2ojKTIcFLPGF7nHi2vEc7f5A2KpH/UBU=" crossorigin="anonymous"></script>
+        <!--nuestro script-->
         <script src="script.js"></script>
     </body>
 </html>
